@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <servlet>
+    <servlet-name>cheekLoginServlet</servlet-name>
+    <servlet-class>servlet.cheekLoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>addNoticeServlet</servlet-name>
+    <servlet-class>servlet.addNoticeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>updateNoticeServlet</servlet-name>
+    <servlet-class>servlet.updateNoticeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>updnoticeServlet</servlet-name>
+    <servlet-class>servlet.updnoticeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpDateNoticeServlet</servlet-name>
+    <servlet-class>servlet.UpDateNoticeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>updServlet</servlet-name>
+    <servlet-class>servlet.updServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>cheekLoginServlet</servlet-name>
+    <url-pattern>/cheekLoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addNoticeServlet</servlet-name>
+    <url-pattern>/addNoticeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>updateNoticeServlet</servlet-name>
+    <url-pattern>/updateNoticeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>updnoticeServlet</servlet-name>
+    <url-pattern>/updnoticeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpDateNoticeServlet</servlet-name>
+    <url-pattern>/UpDateNoticeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>updServlet</servlet-name>
+    <url-pattern>/updServlet</url-pattern>
+  </servlet-mapping>
+
+</web-app>

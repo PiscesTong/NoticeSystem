@@ -1,0 +1,3 @@
+eclipse.preferences.version=1
+validator.Checked=WebContent/page/foreground/listAllNotices.jsp,WebContent/page/background/updnotice.jsp,WebContent/page/background/listNotice.jsp,WebContent/page/background/addNotice.jsp,WebContent/page/background/backIndex.jsp,WebContent/page/background/delnotice.jsp,WebContent/page/cheeklogin.jsp,src/servlet/cheekLoginServlet.java
+validator.Unchecked=
